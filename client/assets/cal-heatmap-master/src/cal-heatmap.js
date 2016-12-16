@@ -62,9 +62,9 @@ var CalHeatMap = function() {
 
 		maxDate: null,
 
-		// ================================================
+		// ===============================================
 		// DATA
-		// ================================================
+		// ===============================================
 
 		// Data source
 		// URL, where to fetch the original datas
@@ -1468,10 +1468,10 @@ CalHeatMap.prototype = {
 	/**
 	 * Sprintf like function.
 	 * Replaces placeholders {0} in string with values from provided object.
-	 * 
+	 *
 	 * @param string formatted String containing placeholders.
 	 * @param object args Object with properties to replace placeholders in string.
-	 * 
+	 *
 	 * @return String
 	 */
 	formatStringWithObject: function (formatted, args) {
